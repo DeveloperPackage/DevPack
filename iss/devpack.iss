@@ -1,7 +1,7 @@
 #include "environment.iss"
 
 #define MyAppName "DevPack"
-#define MyAppVersion "1.0.2"
+#define MyAppVersion "1.0.3"
 #define MyAppPublisher "DevPack Project"
 #define MyAppURL "https://github.com/DeveloperPackage/DevPack/releases/latest"
 #define MyAppExeName "qtcreator.exe"
@@ -62,6 +62,7 @@ Source: "C:\ProgramData\.software\qt-creator\*"; DestDir: "{app}\qt-creator"; Fl
 Source: "C:\ProgramData\.software\boost\*"; DestDir: "{app}\boost"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\ProgramData\.software\wxWidgets\include\*"; DestDir: "{app}\wxWidgets\include"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\ProgramData\.software\wxWidgets\lib\*"; DestDir: "{app}\wxWidgets\lib"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "samples\*"; DestDir: "{app}\samples\*"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "VC_redist.x64.exe"; DestDir: {tmp}; Flags: deleteafterinstall
 
 [Run]
