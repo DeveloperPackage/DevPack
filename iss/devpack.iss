@@ -1,7 +1,7 @@
 #include "environment.iss"
 
 #define MyAppName "DevPack"
-#define MyAppVersion "1.0.1"
+#define MyAppVersion "1.0.2"
 #define MyAppPublisher "DevPack Project"
 #define MyAppURL "https://github.com/DeveloperPackage/DevPack/releases/latest"
 #define MyAppExeName "qtcreator.exe"
